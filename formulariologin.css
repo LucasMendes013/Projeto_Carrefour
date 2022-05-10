@@ -1,0 +1,291 @@
+    
+    *{
+        padding: 0px;
+        margin: 0px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     
+     
+    }
+
+    body {
+        overflow-y: hidden;
+        overflow-x: hidden;
+
+    }
+
+    li {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .formulario {
+        background: #f2f1f1;
+        background-image: url(imagens/formulario/img-background3-formulario.jfif);
+        background-size: 410px;
+        background-position-x: 260px ;
+        box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.9000);
+        height: 230px;
+        top: 200px;
+        position: relative;
+        
+
+    }
+
+    .whiteb {
+        background: #f2f1f1;
+        background-image: url(imagens/formulario/img-background2-formulario.jfif);
+        background-size: 1000px;
+        box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.9000);
+        background-position-x: 370px ;
+        height: 640px;
+
+    }
+
+    .informacoes {
+        position: relative;
+        left: 260px;
+        bottom: 195px;
+        padding: 15px;
+        background-color: #ffffff;
+        width: 800px;
+        height: 580px;
+        border: 5px solid #4648bd;
+        border-radius: 10px;
+        box-shadow: 6px 6px 10px rgba(17, 17, 17, 0.4333);
+    }
+
+    .informacoes img {
+        position: relative;
+        left: 115px;
+        max-width:270px;
+    }
+
+    .informacoes h1 {
+        font-size: 17px;
+        position: relative;
+        left: 160px;
+        color: #171616;
+    }
+    
+    .informacoes p {
+        font-size: 12px;
+        color: #3d3d3d;
+        position: relative;
+        left: 210px;
+        
+    }
+
+    .informacoes hr {
+        height: 1px;
+        width: 400px;
+        top: 10px;
+        left: 50px;
+        position: relative;
+    }
+
+    .background2 {
+        background-color: #ffffff;
+        position: relative;
+        width: 830px;
+        height: 50px;
+        right: 16px;
+        border: 1px solid #f2f1f1;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        bottom: 16px;
+        box-shadow: 6px 6px 10px rgba(17, 17, 17, 0.3333);
+    }
+    .background2 ul {
+        display: flex;
+        align-items: center;
+    }
+
+    .background2  ul li {
+        position: relative;
+        right: 80px;
+        top: 10px;
+    }
+
+    .background2 li + li {
+        margin-left: 160px;
+    }
+
+    .aolado {
+        position: relative;
+        left: 0px;
+        font-weight: bold;
+        font-weight: 600;
+        text-decoration: underline;
+    }
+    .aolado2 {
+        position: relative;
+        left: 10px;
+    }
+
+    .negrito {
+        font-weight: bold;
+        font-weight: 650;
+    }
+
+    .background2 img {
+        position: relative;
+        max-width: 120px;
+    }
+
+    .background3  {
+        background-color: #ffffff;
+        position: relative;
+        width: 830px;
+        height: 553px;
+        right: 1px;
+        border: 1px solid #f2f1f1;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        top: 20px;
+        box-shadow: 6px 6px 10px rgba(17, 17, 17, 0.3333);
+    }
+
+    .backcadastro {
+        background: linear-gradient(200deg,#1E5BC6, #8199c3 );
+        position: relative;
+        width: 350px;
+        height: 500px;
+        left: 35px;
+        border: 3px solid #1E5BC6;
+        border-radius: 20px;
+        top: 20px;
+        box-shadow: 6px 6px 10px rgba(17, 17, 17, 0.3333);
+        
+    }
+
+    .backcadastro form {
+        position: relative;
+        left: 30px;
+        top: 10px;
+        
+    }
+
+    .backlogin {
+        background: linear-gradient(200deg,#1E5BC6, #8199c3 );
+        position: relative;
+        width: 350px;
+        height: 500px;
+        left: 430px;
+        border: 3px solid #1E5BC6;
+        border-radius: 20px;
+        bottom: 487px;
+        box-shadow: 6px 6px 10px rgba(17, 17, 17, 0.3333);
+    }
+
+    .cadastro {
+        position: relative;
+        left: 80px;
+        top: 20px;
+        font-size: 20px;
+        bottom: 20px;
+        border: 3px solid #4648bd;
+        border-radius: 20px;
+        padding: 10px;
+        font-weight: bold;
+        font-weight: 600;
+        box-shadow: 6px 6px 10px rgba(17, 17, 17, 0.3333); 
+        background: linear-gradient(200deg,#1E5BC6, #8199c3 );
+        color: white;
+    }
+
+    .cadastro2 {
+        position: relative;
+        left: 100px;
+        font-size: 20px;
+        top: 90px;
+        border: 3px solid #4648bd;
+        border-radius: 20px;
+        padding: 10px;
+        font-weight: bold;
+        font-weight: 600;
+        box-shadow: 6px 6px 10px rgba(17, 17, 17, 0.3333); 
+        background: linear-gradient(200deg,#1E5BC6, #8199c3 );
+        color: white;
+    }
+
+    .campo {
+        position: relative;
+        top: 60px;
+        padding: 5px;
+        right: 70px;
+        text-align: right;
+
+    }
+
+    .campo3 {
+        position: relative;
+        top: 120px;
+        padding: 5px;
+        right: 50px;
+        text-align: right;
+
+    }
+
+    .campo + .campo {
+        padding: 5px;
+    }
+
+    .campo3 + .campo3 {
+        padding: 5px;
+    }
+    
+    .campo2 {
+        position: relative;
+        top: 70px;
+        padding: 10px;
+        left:10px;    
+        text-align: left;
+    }
+
+
+    .backcadastro input {
+        border-radius: 10px;
+        height: 15px;
+        border: 1px solid #ffffff;
+        outline: none;
+    }
+
+    .backlogin input {
+        border-radius: 10px;
+        height: 15px;
+        border: 1px solid #ffffff;
+        outline: none;
+    }
+
+    .backcadastro label {
+        color: white;
+        font-size: 18px;
+    }
+
+    .backlogin label {
+        color: white;
+        font-size: 18px;
+    }
+
+    .rec1 {
+        position: relative;
+        bottom:330px;
+        left: 745px;
+        width: 250px;
+        cursor: pointer;
+    }
+
+    .rec2 {
+        position: relative;
+        bottom:170px;
+        left: 100px;
+        width: 250px;
+        cursor: pointer;
+    }
+
+
+    
+    

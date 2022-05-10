@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  
+<head>
+    <link rel="shortcut icon" href="imagens/icon-favicon-url.png" type="image/x-icon">
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, 
+        initial-scale=1, shrink-to-fit=no" />
+  
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+        rel="stylesheet" />
+        <link rel="shortcut icon" href="../imagens/icon-favicon-url.png" type="image/x-icon"> 
+        <title>Entre em contato conosco</title>
+</head>
+  
+<body>
+    <div class="container mt-3">
+        <br/>
+        <h1>Entre em contato conosco<img src="../imagens/icon-favicon-url.png" alt="Logo Carrefour" class="imglogo"></h1>
+        <br/>
+        <form action="/formFillUp" method="POST">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label  
+                        style="font-size: 23px">
+                        Nome
+                    </label>
+                    <input type="text" class="form-control"
+                        id="name" name="name" required="" />
+                </div>
+  
+                <div class="form-group col-md-6">
+                    <label 
+                        style="font-size: 23px">
+                        Motivo do contato
+                    </label>
+                      
+                    <input type="text" class="form-control" 
+                        id="reason" name="reason" required=""/>
+                </div>
+            </div>
+  
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputEmail" 
+                        style="font-size: 23px">
+                        Email
+                    </label>
+                    <input type="email" class="form-control" 
+                        id="inputEmail" name="email" required="" />
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputPhone" 
+                        style="font-size: 23px">Telefone
+                    </label>
+                    <input type="text" class="form-control" 
+                        id="inputPhone" name="phone" required=""/>
+                </div>
+            </div>
+  
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputCity" 
+                        style="font-size: 23px">Cidade
+                    </label>
+                    <input type="text" class="form-control" 
+                        id="inputCity" name="city" required=""/>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputState" 
+                        style="font-size: 23px">Estado
+                    </label>
+                    <input type="text" class="form-control" 
+                        id="inputState" name="state" required=""/>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputAddress" 
+                    style="font-size: 23px">Endereço</label>
+                <input type="text" class="form-control" 
+                    id="inputAddress" name="addressline" required="" />
+            </div>
+            <button type="submit" class="btn btn-primary btnenviar">
+                Enviar
+            </button>
+        </form>
+    </div>
+</body>
+  
+</html>
